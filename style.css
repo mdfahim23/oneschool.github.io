@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#mynavbar ul li {
+    margin-left: 15px;
+}
+
+#mynavbar ul li a{
+    text-transform: capitalize;
+}
+
+/* Hero Section */
+
+#Home {
+    background-image: url(./Images/hero_1.jpg);
+    background-size: cover;
+    height: 700px;
+    max-height: 800px;
+}
+
+
+#Home:before {
+    content: "";
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background: #343a40;
+    opacity: .9;
+}
+
+.home-left {
+    position: relative;
+}
+
+.home-left h1 {
+    color: #fff;
+    background: transparent;
+    font-size: 30px;
+    padding-top: 340px;
+
+}
+
+.home-left p {
+    color: #fff;
+}
+
+.home-right {
+    position: relative;
+    width: 50%;
+}
+
+.sign-up-form {
+    background-color: #fff;
+    width: 60%;
+    height: 250px;
+    margin-top: 270px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+.sign-up-input {
+    width: 75%;
+    margin: 0 auto;
+}
+/* Courses section */
+#courses{
+    background-color: #fff;
+    height: 100vh;
+}
+
+/* programme section */
+#programme {
+    background-color: #fff;
+}
+
+.programme-right h3 {
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.programme-right p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* Teacher section */
+
+#teacher{
+    background-color: #fff;
+    height: 100vh;
+}
+
+.image-overly{
+    background-color:transparent;
+    width:30%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.image-overly img{
+    border-radius: 50%;
+}
+
+#student-review{
+    background-image:url(./Images/hero_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#student-review:before {
+    content: "";
+    position: absolute;
+    height:100vh;
+    width: 100%;
+    background: #343a40;
+    opacity: .6;
+}
+
+.Student-image{
+    position: relative;
+    height: 140px;
+    width:140px;
+    top: 160px;
+    left:455px;
+    border-radius:50%;
+}
+
+#student-review h6{
+    padding-top: 170px;
+}
+
+
+
+
+
+
+
